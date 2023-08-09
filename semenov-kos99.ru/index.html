@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <script src="js/jquery.min.js"></script>
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(89756078, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/89756078" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+  </head>
+  <body>
+    <div class="header-info lock__padding">
+      Free shipping on orders over $50!
+    </div>
+    <header class="header lock__padding">
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <div class="header__menu">
+            <span class="line"></span>
+          </div>
+          <div class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#!" class="header__link">shop</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">membership</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">our story</a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="thankyou.html" class="header__logo-link">
+            <!-- <img src="img/svg/logo.svg" alt="Alcohol for the modern drinker" /> -->
+            <svg class="logo-svg">
+              <use xlink:href="img/svg/sprite.svg#logo"></use>
+            </svg>
+          </a>
+
+          <div class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#!" class="header__link">Newsletter</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">Account</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">cart(0)</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="menu">
+      <div class="menu__close"></div>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#!" class="menu__link">shop</a>
+        </li>
+        <li class="menu__item">
+          <a href="#!" class="menu__link">membership</a>
+        </li>
+        <li class="menu__item">
+          <a href="#!" class="menu__link">our story</a>
+        </li>
+        <li class="menu__item">
+          <a href="#!" class="menu__link">Newsletter</a>
+        </li>
+        <li class="menu__item">
+          <a href="#!" class="menu__link">Account</a>
+        </li>
+        <li class="menu__item">
+          <a href="#!" class="menu__link">cart(0)</a>
+        </li>
+      </ul>
+    </div>
+
+    <main class="main">
+      <div class="main__header">
+        <div class="main__header-image">
+          <img
+            src="img/main-header/bg-min.jpg"
+            alt="Alcohol for the modern drinker"
+          />
+        </div>
+        <div class="main__header-content">
+          <h1 class="main__header-title">Alcohol for the modern drinker</h1>
+          <p class="main__header-info">
+            Light and refreshing flavors made with real, clean ingredients you
+            can feel good about. Just pour, sip, and enjoy.
+          </p>
+          <button class="main__header-but">Shop ALL</button>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="wrapper">
+          <div class="feature__body">
+            <div class="block">
+              <div class="feature__block">
+                <p class="feature__text">
+                  "What makes Haus so special is its incredible flavors."
+                </p>
+                <a href="#!" class="feature__link"
+                  ><img src="img/feature/01.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="block">
+              <div class="feature__block">
+                <p class="feature__text">
+                  “For the wine or cocktail lover who’s tried it all and wants
+                  something new and refreshing.”
+                </p>
+                <a href="#!" class="feature__link"
+                  ><img src="img/feature/02.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="block">
+              <div class="feature__block">
+                <p class="feature__text">
+                  “Cleaner, responsibly sourced, and lower in alcohol.”
+                </p>
+                <a href="#!" class="feature__link"
+                  ><img src="img/feature/03.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="ingredients">
+        <div class="wrapper">
+          <h2 class="ingredients__title">
+            Made with natural ingredients, nothing fake
+          </h2>
+          <p class="ingredients__subtitle">Shop All Flavors</p>
+          <div class="ingredients__items">
+            <div class="block">
+              <div class="ingredients__item">
+                <img src="img/ingredients/01-min.jpg" alt="The Sampler Kit" />
+                <h3 class="ingredients__item-title">The Sampler Kit</h3>
+                <p class="ingredients__item-info">
+                  Try a variety of Haus flavors with our customizable
+                  four-bottle kit. Each bottle serves 2-3 drinks.
+                </p>
+                <button
+                  data-id="popup_1"
+                  class="ingredients__item-but popup__open"
+                  onclick="ym(89756078,'reachGoal','shop_now')"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div class="block">
+              <div class="ingredients__item ingredients__item-best-seller">
+                <img
+                  src="img/ingredients/02-min.jpg"
+                  alt="Grapefruit Jalapeño"
+                />
+                <h3 class="ingredients__item-title">Grapefruit Jalapeño</h3>
+                <p class="ingredients__item-info">
+                  Light and refreshing, this aperitif is a bright blend of
+                  citrus with a subtle kick of fresh jalapeño.
+                </p>
+                <button
+                  data-id="popup_1"
+                  class="ingredients__item-but popup__open"
+                  onclick="ym(89756078,'reachGoal','shop_now')"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div class="block">
+              <div class="ingredients__item ingredients__item-best-seller">
+                <img src="img/ingredients/03-min.jpg" alt="Citrus Flower" />
+                <h3 class="ingredients__item-title">Citrus Flower</h3>
+                <p class="ingredients__item-info">
+                  A fresh Californian take on the apéritif. Made with crisp
+                  lemon and subtle elderflower.
+                </p>
+                <button
+                  data-id="popup_1"
+                  class="ingredients__item-but popup__open"
+                  onclick="ym(89756078,'reachGoal','shop_now')"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="aperitifs">
+        <div class="wrapper">
+          <div class="block">
+            <img
+              src="img/aperitifs/01-min.jpg"
+              alt="An intro to apéritifs"
+              class="aperitifs__pic"
+            />
+            <div class="aperitifs__text">
+              <h2 class="aperitifs__title">An intro to apéritifs</h2>
+              <p class="aperitifs__info">
+                Apéritifs are a category of spirits with complex flavors derived
+                from fruits, herbs, and botanicals. Their lighter alcohol
+                content (less than whiskey, more than wine) makes them perfect
+                to sip all evening.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="best">
+        <div class="wrapper">
+          <div class="best__body">
+            <div class="best__text">
+              <h3 class="best__text-title">Easy to drink</h3>
+              <p class="best__text-info">
+                The perfect anytime drink, sip Haus on its own or with simple
+                mixers you probably already have like soda or tonic.
+              </p>
+              <h2 class="best__text-main-title">
+                Natural ingredients. Nothing fake.
+              </h2>
+              <p class="best__text-info">
+                Artificial ingredients and refined sugars are a big culprit in
+                hangovers. Feel good about what’s in your glass that night — and
+                the next day.
+              </p>
+              <h3 class="best__text-title">Delivered to your door</h3>
+              <p class="best__text-info">
+                We blend, bottle, and ship our products straight from Sonoma, CA
+                to your doorstep.
+              </p>
+            </div>
+
+            <div class="best__image">
+              <img
+                src="img/best/01-min.jpg"
+                alt=" Natural ingredients. Nothing fake."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="review">
+        <div class="wrapper">
+          <div class="review__body">
+            <div class="block">
+              <div class="review__block">
+                <p class="review__block-text">
+                  “Haus has found the solution I didn’t really know I was
+                  looking for!”
+                </p>
+                <p class="review__block-use">— Susan</p>
+                <p class="review__block-buyer">verified buyer</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="review__block">
+                <p class="review__block-text">
+                  “I love the flavor of this apéritif — it’s light and lively,
+                  and it’s refreshing with seltzer or tonic.”
+                </p>
+                <p class="review__block-use">— Fiona</p>
+                <p class="review__block-buyer">verified buyer</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="review__block">
+                <p class="review__block-text">
+                  “It’s delicious, and unique. I love everything from the
+                  packaging, to the flavors.”
+                </p>
+                <p class="review__block-use">— Esteban</p>
+                <p class="review__block-buyer">verified buyer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="differently">
+        <div class="wrapper">
+          <div class="differently__body">
+            <div class="differently__image">
+              <img
+                src="img/differently/01-min.jpg"
+                alt="We do things differently than most producers"
+              />
+            </div>
+            <div class="differently__content">
+              <div class="block">
+                <h2 class="differently__title">
+                  We do things differently than most producers
+                </h2>
+                <p class="differently__text">
+                  Our flavors are derived from real fruits, herbs, and
+                  botanicals, not ingredients from a lab. We leave out the
+                  artificial ingredients and excess sugar, and tell you what’s
+                  inside. It’s a better way to drink.
+                </p>
+                <a class="differently__learn">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="wrapper">
+          <div class="contact__spotify">
+            <h2 class="contact__spotify-title">Set the mood</h2>
+            <p class="contact__spotify-info">
+              Curated playlists from Woody + Helena, plus some of our friends
+              and favorite brands.
+            </p>
+            <button class="contact__spotify-but">Spotify</button>
+          </div>
+          <div class="contact__links">
+            <p class="contact__links-info">Follow us, share us, drink Ha(us)</p>
+            <div class="contact__links-social">
+              <a href="#!">Instagram</a>
+              <a href="#!">Twitter</a>
+              <a href="#!">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="wrapper">
+          <div class="content__posted">
+            <div class="content__posted-body">
+              <h2 class="content__posted-title">Stay posted</h2>
+              <p class="content__posted-info">
+                Let's be friends. Subscribe to our newsletter to receive updates
+                on new launches, recipes, playlists, and more.
+              </p>
+              <form class="content__posted-form">
+                <input type="text" placeholder="YOUR EMAIL ADDRESS" />
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="content__links">
+            <div class="content__links-body">
+              <div class="content__links-block">
+                <p class="content__links-chapter">Explore</p>
+                <a href="#!">Home</a>
+                <a href="#!">shope</a>
+                <a href="#!">Membership</a>
+                <a href="#!">Our Story</a>
+                <a href="#!">FAQ</a>
+                <a href="#!">Refer a Friend</a>
+                <a href="#!">Corporate Gifting</a>
+                <a href="#!">Gift Card</a>
+              </div>
+              <div class="content__links-block">
+                <p class="content__links-chapter">Follow</p>
+                <a href="#!">Instagram</a>
+                <a href="#!">Spotify</a>
+                <a href="#!">Twitter</a>
+                <a href="#!">Facebook</a>
+              </div>
+              <div class="content__links-block">
+                <p class="content__links-chapter">Drop Us a Line</p>
+                <a href="#!">hello@drink.haus</a>
+                <a href="#!">press@drink.haus</a>
+                <a href="#!">partnerships@drink.haus</a>
+                <a href="#!">jobs@drink.haus</a>
+                <a href="#!">wholesale@drink.haus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__body">
+          <span class="footer__info"> © Haus 2021 </span>
+          <a href="#!" class="footer__link">Contact Us</a>
+          <a href="#!" class="footer__link">Return Policy</a>
+          <a href="#!" class="footer__link">Privacy Policy</a>
+          <a href="#!" class="footer__link">Terms & Conditions</a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="popup_1" class="popup">
+      <div class="popup__body">
+        <div class="popup__close"></div>
+        <div class="popup__content">
+          <div class="row-product">
+            <div class="popup__image">
+              <img src="img/ingredients/02-min.jpg" alt="product" />
+            </div>
+            <div class="popup__info">
+              <h2 class="popup__name">
+                Haus <br />
+                Grapefruit Jalapeño
+              </h2>
+              <div class="popup__block">
+                <div class="popup__price">1 299 ₽</div>
+                <div class="popup__review">
+                  <div class="popup__review-star">
+                    <svg class="svg-star">
+                      <use xlink:href="img/svg/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="svg-star">
+                      <use xlink:href="img/svg/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="svg-star">
+                      <use xlink:href="img/svg/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="svg-star">
+                      <use xlink:href="img/svg/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="svg-star">
+                      <use xlink:href="img/svg/sprite.svg#star"></use>
+                    </svg>
+                  </div>
+                  <div class="popup__review-review">Review</div>
+                  <div class="popup__review-count-review">
+                    <span class="count">11</span> orders
+                  </div>
+                </div>
+              </div>
+              <div class="popup__map">
+                <a href="#!">Show me where you need to bring</a>
+              </div>
+            </div>
+          </div>
+          <div class="popup__content-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            veniam dolor mollitia, deleniti soluta omnis fugit animi quam a
+            incidunt praesentium beatae! Ex cum ullam enim iste debitis ipsa
+            rerum.
+          </div>
+          <div class="row-buy">
+            <h2 class="popup__content-regret">Buy, you won't regret it</h2>
+            <button class="popup__content-but">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lock__wrapper"></div>
+
+    <script src="js/main.min.js"></script>
+
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <!-- Подключаем саму библиотеку slick slayder -->
+    <script src="slick/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".ingredients__items").slick({
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 1225,
+              settings: {
+                slidesToShow: 2,
+                infinite: false,
+                nextArrow: `<div class="next__arrow btn-arrow">
+                              <svg class="svg__arrow">
+                                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+                              </svg>
+                            </div>`,
+                prevArrow: `<div class="prev__arrow btn-arrow">
+                                <svg class="svg__arrow">
+                                  <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+                                </svg>
+                              </div>`,
+              },
+            },
+            {
+              breakpoint: 845,
+              settings: {
+                slidesToShow: 1,
+                infinite: false,
+                nextArrow: `<div class="next__arrow btn-arrow">
+                              <svg class="svg__arrow">
+                                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+                              </svg>
+                            </div>`,
+                prevArrow: `<div class="prev__arrow btn-arrow">
+                                <svg class="svg__arrow">
+                                  <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+                                </svg>
+                              </div>`,
+              },
+            },
+          ],
+        });
+        $(".feature__body").slick({
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 1225,
+              settings: {
+                slidesToShow: 2,
+                infinite: false,
+                nextArrow: `<div class="next__arrow btn-arrow">
+                              <svg class="svg__arrow">
+                                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+                              </svg>
+                            </div>`,
+                prevArrow: `<div class="prev__arrow btn-arrow">
+                                <svg class="svg__arrow">
+                                  <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+                                </svg>
+                              </div>`,
+              },
+            },
+            {
+              breakpoint: 845,
+              settings: {
+                slidesToShow: 1,
+                infinite: false,
+                nextArrow: `<div class="next__arrow btn-arrow">
+                              <svg class="svg__arrow">
+                                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+                              </svg>
+                            </div>`,
+                prevArrow: `<div class="prev__arrow btn-arrow">
+                                <svg class="svg__arrow">
+                                  <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+                                </svg>
+                              </div>`,
+              },
+            },
+          ],
+        });
+        $(".review__body").slick({
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 1225,
+              settings: {
+                slidesToShow: 2,
+                infinite: false,
+                nextArrow: `<div class="next__arrow btn-arrow">
+                              <svg class="svg__arrow">
+                                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+                              </svg>
+                            </div>`,
+                prevArrow: `<div class="prev__arrow btn-arrow">
+                                <svg class="svg__arrow">
+                                  <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+                                </svg>
+                              </div>`,
+              },
+            },
+            {
+              breakpoint: 845,
+              settings: {
+                slidesToShow: 1,
+                infinite: false,
+                nextArrow: `<div class="next__arrow btn-arrow">
+                              <svg class="svg__arrow">
+                                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+                              </svg>
+                            </div>`,
+                prevArrow: `<div class="prev__arrow btn-arrow">
+                                <svg class="svg__arrow">
+                                  <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+                                </svg>
+                              </div>`,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
